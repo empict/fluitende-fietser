@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fietsen</title>
+</head>
+<body>
+    <nav class="navbar">
+            
+        <div class="logo">
+            <div><img class="website-logo" src="../data/images/fietsen/websitelogo.png" alt="logo voor de website van de luitende fietser"></div>
+            <div  class="fiets-title">De fluitende Fietser</div>
+        </div>
+
+                <div>
+                    <form class="search-bar">
+                        <input type="text" placeholder="search..." name="q" required>
+                        <button type="submit"><img src="../data/images/fietsen/search.png" alt="zoeken" ></button>
+                    </form>
+                </div>
+    </nav>
+
+    <div class="mobile-container">
+
+        <!-- Telefoon Navigatie Menu -->
+        <div class="topnav">
+          <a href="../html/homepage.html" class="active">Menu</a>
+          <div id="myLinks">
+            <a href="../html/homepage.html">Homepage</a>
+            <a href="../html/fietsen.html" id="fietsen-underline">Fietsen</a>
+            <a href="../html/verhuur.html">Verhuur</a>
+            <a href="../html/contactpagina.html">Contact</a>
+            <a href="../html/openingstijden.html">Openingstijden</a>
+            <a href="../html/over-ons.html">Over ons</a>
+
+            <div>
+                <form class="search-bar2">
+                    <input type="text" placeholder="search..." name="q" required>
+                    <button type="submit"><img src="../data/images/fietsen/search.png" alt="zoeken" ></button>
+                </form>
+            </div>
+          </div>
+
+         
+
+          <a  href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img id="fie" src="../data/images/fietsen/123.png" alt="123">
+            <i  class="fa fa-bars"></i>
+          </a>
+        </div>
+
+
+    <div class="navbar-2">
+        <ul class="navbar-2-items">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="fietsen.html" id="fietsen">Fietsen</a></li> 
+            <li><a href="verhuur.html">Verhuur</a></li>
+            <li><a href="contactpagina.html">contactpagina</a></li>
+            <li><a href="openingstijden.html">Openingstijden</a></li>
+            <li><a href="over-ons.html">Over ons</a></li>
+        </ul>
+    </div>
+
+    <section id="content" class="grid-container">
+        <div class="fiets2">
+        <div class="fiets" data-fiets-id="1">
+            <img src="../data/images/fietsen/Pelikaan_Carry_On_Lady.jpg" alt="Pelikaan Carry On Lady">
+            <p>Pelikaan Carry On Lady</p>
+        </div>
+        <div class="fiets" data-fiets-id="2">
+            <img src="../data/images/fietsen/Stella_Allegra_voorwielmotor.jpg" alt="Allegra voorwielmotor">
+            <p>Allegra voorwielmotor</p>
+        </div>
+        </div>
+        
+        <div class="fiets4">
+        <div class="fiets" data-fiets-id="3">
+            <img src="../data/images/fietsen/Gazelle_Orange_C7.jpg" alt="Gazelle Orange C7+ HMB 2020">
+            <p>Gazelle Orange C7+ HMB 2020</p>
+        </div>
+        <div class="fiets" data-fiets-id="4">
+            <img src="../data/images/fietsen/Gazelle_CityGo_C7.jpg" alt="Gazelle CityGo C7">
+            <p>Gazelle CityGo C7</p>
+        </div>
+        </div>
+    </section>
+    
+    <section id="details" class="hidden">
+        <img id="details-image" src="details" alt="Details">
+        <div id="details-info"></div>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+           <ul class="foot">
+            <li><a href="../html/contactpagina.html">Contact info</a></li>
+            <li><a href="../html/over-ons.html">Over ons</a></li>
+            <li><a href="mailto:info@fluitendefietser.nl">info@fluitendefietser.nl</a></li>
+            <li><a href="https://mijn.bovag.nl/downloads/verenigingszaken/algemene-voorwaarden-gt/algemene-voorwaarden-tweewielerbedrijven-particuli" target="_blank">Algemene voorwaarden</a></li>
+           </ul>
+           <span>&copy; 2023 Fluitende Fietser</span>
+        </div>
+        <div class="social-media-icon"><a class="facebook" href="https://www.facebook.com/"><img src="../data/images/fietsen/Facebook.png" alt="Facebook-logo"></a></div>
+    </footer>
+
+    <div id="tweede-footer">
+        <p id="bank">VK: 88599665 | BTW NL999888492Z0</p>
+        <img id="fiets" src="../data/images/fietsen/fiets3js.png" alt="dynamische fiets">
+    </div>
+
+    <link rel="stylesheet" href="../css/fietsen.css">
+    <script src="../js/script.js"></script>
+    <script src="../js/tijd.js"></script>
+
+</body>
+</html>
