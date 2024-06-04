@@ -344,6 +344,14 @@ footer
     text-decoration: underline;
   }
 
+  .hometekst {
+    max-width: 50%;
+    max-height: 50%;
+    font-size: 130%;
+    color: black;
+    background-color: lightgray;
+  }
+
 @media only screen and ( max-width: 600px )
 
 {
