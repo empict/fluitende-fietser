@@ -314,7 +314,7 @@ footer
 #tweede-footer
 {
     background-color: darkblue;
-    height: 90px;
+    height: 150px;
     display: flex;
     color: white;
     overflow: hidden;
