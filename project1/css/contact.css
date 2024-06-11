@@ -1,6 +1,7 @@
 *
 {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html
@@ -242,6 +243,8 @@ footer
 
 #send
 {
+  display: block;
+  margin: 0 auto;
     cursor: pointer;
 }
 
