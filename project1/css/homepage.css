@@ -23,7 +23,7 @@ body
     align-items: center;
     background-color: lightblue;
     color: white;
-    max-height: 110px;
+    max-height: 30px;
     min-width: fit-content;
 }
 
